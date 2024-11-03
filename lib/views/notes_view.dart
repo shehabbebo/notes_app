@@ -1,4 +1,6 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:note_app/constant.dart';
 import 'package:note_app/views/weight/addnote_buttomSheet.dart';
 import 'package:note_app/views/weight/notes_view_body.dart';
 
