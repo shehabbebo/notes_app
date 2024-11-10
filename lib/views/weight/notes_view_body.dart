@@ -3,8 +3,8 @@ import 'package:note_app/views/weight/Custom_App_Bar.dart';
 import 'package:note_app/views/weight/custom_itemnote.dart';
 import 'package:note_app/views/weight/notes_list_view.dart';
 
-class Notesviesbody extends StatelessWidget {
-  const Notesviesbody({super.key});
+class Notesviewbody extends StatelessWidget {
+  const Notesviewbody({super.key});
 
   @override
   Widget build(BuildContext context) {
