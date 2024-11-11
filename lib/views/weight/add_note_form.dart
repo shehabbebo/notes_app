@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:note_app/cubits/add_note_cubit/add_notes_cubit.dart';
 import 'package:note_app/models/note_model.dart';
+import 'package:note_app/views/weight/Colors.listView.dart';
 import 'package:note_app/views/weight/Custom_textFiled.dart';
 import 'package:note_app/views/weight/customButton.dart';
 
@@ -42,6 +43,7 @@ class _addNoteformState extends State<addNoteform> {
             maxLines: 5,
           ),
           SizedBox(height: 32),
+          ColorsListView(),
           BlocBuilder<AddNotesCubit, AddNoteState>(builder: (context, state) {
             return CustomButton(
               isLoading: state is AddNotesLoading ? true : false,
