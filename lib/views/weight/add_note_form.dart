@@ -42,7 +42,7 @@ class _addNoteformState extends State<addNoteform> {
             maxLines: 5,
           ),
           SizedBox(height: 32),
-          BlocBuilder<AddNotesCubit, NotesState>(builder: (context, state) {
+          BlocBuilder<AddNotesCubit, AddNoteState>(builder: (context, state) {
             return CustomButton(
               isLoading: state is AddNotesLoading ? true : false,
               onTap: () {
